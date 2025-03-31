@@ -1,6 +1,6 @@
 # Additional experiments on new datasets
 
-We have also conducted experiments on three new datasets as reviewer suggested. The results are listed as follow:
+We have also conducted experiments on three new datasets as reviewer suggested. The results are listed as follow (the **bold** and *italic font* denote the best and the second best results respectively):
 
 |              | Phishing          |                   | Taxi (NYC)        |                   | Click             |                   |
 | ------------ | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
@@ -15,3 +15,4 @@ We have also conducted experiments on three new datasets as reviewer suggested. 
 | SRDO         | 0.964 ± 0.001     | 0.967 ± 0.008     | 0.655 ± 0.073     | 0.770 ± 0.010     | 0.042 ± 0.039     | 0.763 ± 0.052     |
 | Ours         | **0.966 ± 0.003** | *0.974 ± 0.003*   | **0.708 ± 0.006** | **0.784 ± 0.004** | **0.259 ± 0.036** | *0.771 ± 0.002*   |
 
+We could observe that our method consistently delivers the best worst-group accuracy, clearly enhancing robustness. While mean accuracy sometimes reflects a trade-off, our approach often matches or exceeds baseline performance, confirming that our robustness is improved through effective score-based balancing rather than sacrificing overall accuracy. 
